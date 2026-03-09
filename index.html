@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bidhan Karmokar - Frontend Developer</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo" aria-label="Brand Logo">BK</a>
+      <button type="button" aria-label="Open navigation bar">
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+      <nav>
+        <button type="button" aria-label="Close navigation bar">
+          <i data-lucide="x" aria-hidden="true"></i>
+        </button>
+        <ul>
+          <li><a href="#home" aria-current="page">Home</a></li>
+          <li><a href="#about" aria-label="About page">About</a></li>
+          <li><a href="#project" aria-label="Projects page">Projects</a></li>
+          <li><a href="#skill" aria-label="Skills page">Skills</a></li>
+          <li><a href="#contact" aria-label="Contact page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main Container -->
+    <main id="main">
+      <!-- Hero Section -->
+      <section id="home">
+        <article>
+          <h1>Crafting Awesome Dreams</h1>
+          <h2>Frontend Developer</h2>
+          <p>
+            I turn your dreams into pixel-perfect crafted websites with modern
+            animations and seamless user experiences.
+          </p>
+          <div class="home__buttons">
+            <a href="#project" aria-label="Visit my work">Visit Work</a>
+            <a href="#contact" aria-label="Contact me">Contact Me</a>
+          </div>
+        </article>
+        <figure>
+          <img
+            src="./assets/images/profile.webp"
+            alt="Bidhan"
+            width="400"
+            height="600"
+            fetchpriority="high"
+            loading="lazy"
+          />
+        </figure>
+        <div>
+          <article>
+            <h3><strong>1+</strong><span>Year</span></h3>
+            <p>Experienced</p>
+          </article>
+          <article>
+            <h3><strong>14+</strong><span>Projects</span></h3>
+            <p>Compleated</p>
+          </article>
+          <article>
+            <h3><strong>8+</strong><span>Clients</span></h3>
+            <p>World Wide</p>
+          </article>
+          <article>
+            <h3><strong>100%</strong></h3>
+            <p>Success Rate</p>
+          </article>
+        </div>
+      </section>
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Me </h2>
+        <article>
+          <h3>Who am I?</h3>
+          <p>
+            I am Bidhan Karmokar, a dedicated frontend developer with a knack
+            for quick learning and building interactive web experiences.
+            Currently, I specialize in creating pixel-perfect, animated websites
+            using HTML, CSS, JavaScript, and GSAP. I am also actively expanding
+            my expertise into React and modern frameworks to build
+            high-performance, scalable web applications.
+          </p>
+          <button type="button">Download Cv</button>
+        </article>
+        <figure>
+            <img src="./assets/images/profile.webp" alt="Bidhan" height="600" width="400" fetchpriority="high" loading="lazy">
+        </figure>
+      </section>
+      <!-- Project Section -->
+      <section id="project">
+        <h2>Featured Projects</h2>
+        <div class="project__grid">
+            <article>
+                <img src="./assets/images/dashboard.webp" alt="Dashboard project" height="500" width="500" fetchpriority="high" loading="lazy">
+                <p>Dashboard with responsive layout and clean code</p>
+                <div class="project__card__btns">
+                    <a href="" aria-label="Live preview">Live preview</a>
+                    <a href="" aria-label="Get code">Get code</a>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/images/ecommerce.webp" alt="Ecommerce project" height="500" width="500" fetchpriority="high" loading="lazy">
+                <p>Easy and user friendly e-comarce site</p>
+                <div class="project__card__btns">
+                    <a href="" aria-label="Live preview">Live preview</a>
+                    <a href="" aria-label="Get code">Get code</a>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/images/landing-page.webp" alt="Landing page project" height="500" width="500" fetchpriority="high" loading="lazy">
+                <p>Modern landing page with gsap animation</p>
+                <div class="project__card__btns">
+                    <a href="" aria-label="Live preview">Live preview</a>
+                    <a href="" aria-label="Get code">Get code</a>
+                </div>
+            </article>
+        </div>
+      </section>
+      <!-- Skill Section -->
+      <section id="skill" aria-labelledby="skill__title">
+        <h2 id="skill__title">My skills</h2>
+        <ul>
+          <li>
+            <span><strong>HTML</strong><strong>90%</strong></span>
+            <progress value="50" max="100"></progress>
+          </li>
+          <li>
+            <span><strong>HTML</strong><strong>90%</strong></span>
+            <progress value="50" max="100"></progress>
+          </li>
+          <li>
+            <span><strong>HTML</strong><strong>90%</strong></span>
+            <progress value="50" max="100"></progress>
+          </li>
+          <li>
+            <span><strong>HTML</strong><strong>90%</strong></span>
+            <progress value="50" max="100"></progress>
+          </li>
+          <li>
+            <span><strong>HTML</strong><strong>90%</strong></span>
+            <progress value="50" max="100"></progress>
+          </li>
+          <li>
+            <span><strong>HTML</strong><strong>90%</strong></span>
+            <progress value="50" max="100"></progress>
+          </li>
+        </ul>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Get In Touch</h2>
+        <article>
+          <ul>
+            <li>
+              <span>Address</span>
+              <address>Khoyajpur, Madaripur, Dhaka</address>
+            </li>
+            <li>
+              <span>Phone</span>
+              <a href="tel:+8801345939358">+880 1345939358</a>
+            </li>
+            <li>
+              <span>Email</span>
+              <a href="mailto:bidhankarmokar45@gmail.com">bidhankarmokar45@gmail.com</a>
+            </li>
+          </ul>
+        </article>
+        <form action="">
+          <div class="input__group">
+            <label for="name" aria-describedby="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+          </div>
+          <div class="input__group">
+            <label for="email" aria-describedby="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+          </div>
+          <div class="input__group">
+            <label for="phone" aria-describedby="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="+880 1xxxxxxx">
+          </div>
+          <div class="input__group">
+            <label for="message" aria-describedby="message">Write message</label>
+            <textarea name="message" id="message" cols="30" rows="20"></textarea>
+          </div>
+          <button type="submit" class="btn" aria-label="Send message">Send message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Bidhan Karmokar. Built with ❤️</p>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="./assets/js/script.js" defer></script>
+  </body>
+</html>
